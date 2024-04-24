@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrep</title>
+    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="mediaqure.css">
+</head>
+<body>
+    <nav id="pc-nev">
+        <div class="logo">Rajib Hassan</div>
+        <div>
+            <ul class="nev-link">
+                <li><a href="#about">About</a></li>
+                <li><a href="#exe">Exeperince</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#con">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hb-nav">
+        <div class="logo">Rajib Hassan</div>
+        <div class="hb-menu">
+            <div class="hb-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <div class="menu-link">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#exp" onclick="toggleMenu()">Exeperince</a></li>
+                    <li><a href="#project" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#con" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profil">
+        <div class="section_pic.con">
+            <img src="" alt="">
+        </div>
+        <div class="section_text">
+            <p class="st_1">Hello, I'm</p>
+            <h1 class="title">Rajib Hassan</h1>
+            <p class="st_2">WordPress Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open()">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./con'">Contact Info</button>
+            </div>
+            <div class="social-container">
+                <img src="" alt="" class="icon" onclick="Location.href='#'">
+                <img src="" alt="" class="icon" onclick="Location.href='#'">
+            </div>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
